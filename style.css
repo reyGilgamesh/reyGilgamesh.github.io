@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    background-image: url(https://i.pinimg.com/enabled_hi/564x/31/23/9f/31239f8a5d132e7356c1268644baa771.jpg);
+}
+
+header {
+    background-color: #445c8b;
+    padding: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.menu li {
+    margin: 0 20px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Arial', sans-serif;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+}
+
+.menu a:hover {
+    background-color: #61dafb;
+    border-radius: 5px;
+}
+
+h1, h2 {
+    text-align: center;
+    margin: 20px 0;
+    font-family: 'Georgia', serif;
+    color: #2c3e50;
+}
+
+section {
+    margin: 40px auto;
+    width: 90%;
+    max-width: 2200px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.carousel {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.carousel img {
+    width: 400px;
+    height: 800px;
+    margin: 0 10px;
+    object-fit: cover;
+}
+
+.anfitrion-content {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.img-anfitrion {
+    width: 300px; 
+    height: auto; 
+    border-radius: 10px; 
+}
+
+ul {
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+}
+
+.pais-container, .deportes-container, .jugadores-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.pais, .deporte, .jugador {
+    margin: 20px;
+    text-align: center;
+    background-color: #e3f2fd;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+}
+
+.pais:hover, .deporte:hover, .jugador:hover {
+    transform: scale(1.05);
+}
+
+table {
+    align-content: center;
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #4d9cb3;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+td {
+    background-color: #e3f2fd;
+    padding: 10px;
+    text-align: center;
+}
+
+td img{
+    width: 400px;
+    height: auto;
+    border-radius: 8px;
+    margin: 0 auto;
+}
+
+.jugador img{
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+    margin: 0 auto;
+}
+
+img {
+    width: 100px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.deportes-container img {
+    width: 300px;
+    height: auto;
+    border-radius: 8px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #445c8b;
+    color: white;
+    margin-top: 40px;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer p {
+    font-size: 14px;
+}
